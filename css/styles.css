@@ -149,20 +149,18 @@ p {
 .dark-section {
   background: #2f303a;
   height: 600px;
-  width: 1600px;
-  left: 0px;
   top: 80px;
-  border-radius: 0px;
   padding-top: 200px;
   padding-bottom: 280px;
 }
 .hero {
-  align-content: center;
   height: 120px;
   width: 696px;
-  left: 452px;
-  top: 280px;
-  border-radius: nullpx;
+  top: 50%;
+  left: 50%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .btn {
   font-weight: 500;
@@ -277,6 +275,11 @@ p {
   padding: 10px;
 }
 .footer {
+  justify-content: left;
+  height: 252px;
+  background: #2f303a;
+  padding-left: 215px;
+  padding-top: 60px;
 }
 .card-set-portfolio {
   display: flex;
@@ -284,4 +287,9 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   flex-basis: calc((100% - 5 * 8px) / 5);
+}
+.hero-order {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
