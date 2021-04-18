@@ -80,7 +80,6 @@ p {
 .list {
   list-style: none;
   padding-left: 0;
-  list-style: none;
 }
 .address {
   font-style: inherit;
@@ -272,7 +271,17 @@ p {
 }
 .portfolio-item {
   text-align: center;
-  flex-basis: calc((100% - 5 * 30px) / 5);
+
+  margin-left: 8px;
+  margin-top: 8px;
+  padding: 10px;
 }
 .footer {
+}
+.card-set-portfolio {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-basis: calc((100% - 5 * 8px) / 5);
 }
