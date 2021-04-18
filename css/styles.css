@@ -46,9 +46,9 @@ p {
   margin-bottom: 20px;
 }
 .container {
-  width: 1600px;
-  padding-left: 215px;
-  padding-right: 215px;
+  width: 1200px;
+  /*padding-left: 215px;
+  padding-right: 215px;*/
   margin-left: auto;
   margin-right: auto;
 }
@@ -72,7 +72,7 @@ p {
 }
 .page-header {
   padding-top: 24px;
-  padding-left: 24px;
+  padding-bottom: 24px;
 }
 .header-decoration {
   color: #212121;
@@ -80,6 +80,7 @@ p {
 .list {
   list-style: none;
   padding-left: 0;
+  margin-bottom: 0;
 }
 .address {
   font-style: inherit;
@@ -148,16 +149,16 @@ p {
 }
 .dark-section {
   background: #2f303a;
-  height: 600px;
-  top: 80px;
+  /*height: 600px;
+  top: 80px;*/
   padding-top: 200px;
   padding-bottom: 280px;
 }
 .hero {
-  height: 120px;
+  /*height: 120px;*/
   width: 696px;
-  top: 50%;
-  left: 50%;
+  /*top: 50%;
+  left: 50%;*/
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
@@ -174,6 +175,7 @@ p {
   color: var(--alt-title-cl);
   background-color: #2196f3;
   border-color: transparent;
+  border-radius: 4px;
 }
 .btn-filter {
   font-family: var(--main-font);
@@ -187,6 +189,8 @@ p {
   color: #212121;
   background: #f5f4fa;
   border-color: transparent;
+  border-radius: 4px;
+  margin-left: 8px;
 }
 .btn-filter:hover {
   color: var(--alt-title-cl);
@@ -225,6 +229,11 @@ p {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.gallery {
+  padding-bottom: 94px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .team {
   background-color: #f5f4fa;
@@ -270,20 +279,24 @@ p {
 .portfolio-item {
   text-align: center;
 
-  margin-left: 8px;
+  /*margin-left: 8px;
   margin-top: 8px;
-  padding: 10px;
+  padding: 10px;*/
 }
 .footer {
-  justify-content: left;
+  /*justify-content: left;
   height: 252px;
+ 
+  padding-left: 215px;*/
   background: #2f303a;
-  padding-left: 215px;
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 .card-set-portfolio {
   display: flex;
   align-items: center;
+
+  list-style: none;
   flex-wrap: wrap;
   justify-content: center;
   flex-basis: calc((100% - 5 * 8px) / 5);
@@ -292,4 +305,7 @@ p {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+.team-name {
+  padding: 30px 32px;
 }
