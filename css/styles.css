@@ -47,8 +47,8 @@ p {
 }
 .container {
   width: 1200px;
-  /*padding-left: 215px;
-  padding-right: 215px;*/
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -73,6 +73,7 @@ p {
 .page-header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #ececec;
 }
 .header-decoration {
   color: #212121;
@@ -81,6 +82,7 @@ p {
   list-style: none;
   padding-left: 0;
   margin-bottom: 0;
+  margin-top: 0;
 }
 .address {
   font-style: inherit;
@@ -137,7 +139,6 @@ p {
 
 .section-title {
   font-family: var(--main-font);
-
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -152,7 +153,7 @@ p {
   /*height: 600px;
   top: 80px;*/
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
 }
 .hero {
   /*height: 120px;*/
@@ -176,6 +177,7 @@ p {
   background-color: #2196f3;
   border-color: transparent;
   border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .btn-filter {
   font-family: var(--main-font);
@@ -225,6 +227,7 @@ p {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-bottom: 0;
 }
 .section {
   padding-top: 94px;
@@ -263,6 +266,10 @@ p {
 .item {
   margin-left: 30px;
   margin-top: 30px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-item {
   text-align: center;
@@ -278,7 +285,6 @@ p {
 }
 .portfolio-item {
   text-align: center;
-
   /*margin-left: 8px;
   margin-top: 8px;
   padding: 10px;*/
@@ -286,8 +292,7 @@ p {
 .footer {
   /*justify-content: left;
   height: 252px;
- 
-  padding-left: 215px;*/
+   padding-left: 215px;*/
   background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -295,17 +300,24 @@ p {
 .card-set-portfolio {
   display: flex;
   align-items: center;
-
   list-style: none;
   flex-wrap: wrap;
   justify-content: center;
   flex-basis: calc((100% - 5 * 8px) / 5);
+  margin-bottom: 50px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 .hero-order {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding: 10px 32px;
 }
 .team-name {
   padding: 30px 32px;
+}
+.btn-filter-all {
+  padding: 6px 22px;
 }
