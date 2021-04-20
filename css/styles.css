@@ -82,7 +82,7 @@ p {
   list-style: none;
   padding-left: 0;
   margin-bottom: 0;
-  margin-top: 0;
+  /*margin-top: 0;*/
 }
 .address {
   font-style: inherit;
@@ -145,9 +145,9 @@ p {
   letter-spacing: 0.03em;
   color: #212121;
 }
-.nav-decoration {
+/*.nav-decoration {
   color: #2196f3;
-}
+}*/
 .dark-section {
   background: #2f303a;
   /*height: 600px;
@@ -192,11 +192,12 @@ p {
   background: #f5f4fa;
   border-color: transparent;
   border-radius: 4px;
-  margin-left: 8px;
+  /*margin-left: 8px;*/
 }
 .btn-filter:hover {
   color: var(--alt-title-cl);
   background-color: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .about-title-item {
   font-size: 14px;
@@ -221,6 +222,9 @@ p {
   letter-spacing: 0.06em;
   color: #212121;
 }
+.portfolio-items:not(:last-child) {
+  margin-right: 8px;
+}
 .team-job-item {
   font-size: 16px;
   line-height: 1.9;
@@ -235,8 +239,8 @@ p {
 }
 .gallery {
   padding-bottom: 94px;
-  padding-left: 15px;
-  padding-right: 15px;
+  /*padding-left: 15px;
+  padding-right: 15px;*/
 }
 .team {
   background-color: #f5f4fa;
@@ -283,8 +287,8 @@ p {
   text-align: left;
   flex-basis: calc((100% - 4 * 30px) / 4);
 }
-.portfolio-item {
-  text-align: center;
+.portfolio-items {
+  text-align: left;
   /*margin-left: 8px;
   margin-top: 8px;
   padding: 10px;*/
@@ -316,8 +320,35 @@ p {
   padding: 10px 32px;
 }
 .team-name {
-  padding: 30px 32px;
+  padding-bottom: 54px;
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
-.btn-filter-all {
+/*.btn-filter-all {
   padding: 6px 22px;
+}*/
+.item-noshadow {
+  margin-left: 30px;
+  margin-top: 30px;
+  background: #ffffff;
+}
+.team-name-portfolio {
+  /*padding: 30px 32px;*/
+  margin-left: 30px;
+  margin-top: 30px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  flex-basis: calc((100% - 9 * 30px) / 9);
+}
+.portfolio-items-name-project {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.team-name-portfolio:nth-child(3n + 1) {
+  margin-left: 0;
 }
