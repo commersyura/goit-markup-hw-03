@@ -67,6 +67,7 @@ img {
 }
 .nav {
   margin-right: auto;
+  align-items: center;
 }
 .page-header .container {
   display: flex;
@@ -74,8 +75,8 @@ img {
   /*justify-content: flex-start;*/
 }
 .page-header {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   border-bottom: 1px solid #ececec;
 }
 .header-decoration {
@@ -84,8 +85,16 @@ img {
 .list {
   list-style: none;
   padding-left: 0;
+  align-items: center;
   margin-bottom: 0;
   margin-top: 0;
+}
+.list-nav-header {
+  list-style: none;
+  padding-left: 0;
+  align-items: center;
+  /*margin-bottom: 0;
+  margin-top: 0;*/
 }
 .address {
   font-style: inherit;
@@ -121,6 +130,7 @@ img {
   letter-spacing: 0.03em;
   color: #212121;
   margin-right: 93px;
+  padding-bottom: 0;
 }
 .logo:hover {
   text-decoration: none;
@@ -150,7 +160,6 @@ img {
   margin-bottom: 50px;
 }
 /*.nav-decoration {
-  color: #2196f3;
 }*/
 .dark-section {
   background: #2f303a;
